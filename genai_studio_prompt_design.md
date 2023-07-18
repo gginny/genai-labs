@@ -57,14 +57,17 @@ Sentiment:
 
 - **One-shot prompting** - This is a method where the LLM is given a single example of the task that it is being asked to perform. Try the following prompt out and see what kind of response you get back.
 
+```
 Decide whether a Tweet's sentiment is positive, neutral, or negative.
 Tweet: I loved the new YouTube video you made!
 Sentiment: positive
 Tweet: That was awful. Super boring 😠
 Sentiment:
+```
 
 - **Few-shot prompting** - In a few-shot prompt you provide few examples to the LLM within the prompt to give some guidance on what type of response you want. Try the following prompt out and see what kind of response you get back.
 
+```
 Decide whether a Tweet's sentiment is positive, neutral, or negative.
 Tweet: I loved the new YouTube video you made!
 Sentiment: positive
@@ -72,6 +75,7 @@ Tweet: That was awful. Super boring 😠
 Sentiment: negative
 Tweet: Something surprised me about this video - it was actually original. It was not the same old recycled stuff that I always see. Watch it - you will not regret it.
 Sentiment:
+```
 
 You may also notice the **FREE-FORM** and **STRUCTURED** tabs in the image below. Those are the two modes that you can use while designing your prompt.
 
