@@ -1,5 +1,7 @@
 
-# Getting started with Vertex AI Generative AI Studio's User Interface
+# Vertex AI Generative AI Studio's User Interface
+
+## Get Started
 
 This guide provides instructions on how to use Generative AI Studio through the Google Cloud console, without using the API or Python SDK.
 
@@ -25,7 +27,9 @@ Upon clicking, the following page will be presented.
 
 ---
 
+# Prompt Design Using GenAI UI
 ## Get Started
+This lab introduces you to prompt designing/ engineering using the Vertex AI Generative AI Studio User Interface. There is another way we can explore prompt design via the API's and that is covered in another lab. This lab is primarily designed to introduce you to use this feature using the UI.
 
 ### What is prompt design?
 Prompt design is the process of creating prompts that elicit the desired response from language models. Writing well structured prompts is an essential part of ensuring accurate, high quality responses from a language model.
@@ -114,7 +118,7 @@ With **STRUCTURED** mode, you can design prompts in more organized ways. You can
 
 In this section, you will ask the model to complete a sentence. Go back to the **Text Prompt** window and
 - Click on the **STRUCTURED** tab
-- Copy "the colour of the sky is" in **INPUT** field
+- Copy ```the colour of the sky is``` in **INPUT** field
 - Click on the **SUBMIT** button on the right side of the page
 
 You would see a similar result as shown in the image below.
