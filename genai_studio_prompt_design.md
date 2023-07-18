@@ -49,9 +49,11 @@ You can feed your desired input text, e.g. a question, to the model. The model w
 Currently, there is no best way to design the prompts yet. Generally, there are 3 methods that you can use to shape the model's response in a way that you desired.
 - **Zero-shot prompting** - This is a method where the LLM is given no additional data on the specific task that it is being asked to perform. Instead, it is only given a prompt that describes the task. Try the following prompt out and see what kind of response you get back
 
+```
 Decide whether a Tweet's sentiment is positive, neutral, or negative.
 Tweet: I loved the new YouTube video you made!
 Sentiment:
+```
 
 - **One-shot prompting** - This is a method where the LLM is given a single example of the task that it is being asked to perform. Try the following prompt out and see what kind of response you get back.
 
